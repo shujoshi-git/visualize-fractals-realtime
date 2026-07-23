@@ -180,8 +180,11 @@ with st.sidebar:
 
 # Header section.
 st.title("Visualizing Fractals In Real Time: Run Time Analysis")
-st.subheader("Use the sliders to toggle the resolution and scaling factor (changes the fractal's shape). Live run time analysis compares run time for unvectorized code (Python lists) vs vectorized code (NumPy arrays).")
-
+st.markdown("""
+<div style="text-align: justify;">
+    <h4>Use the sliders to toggle the resolution and scaling factor (changes the fractal's shape). Live run time analysis compares run time for unvectorized code (Python lists) vs vectorized code (NumPy arrays).</h4> 
+</div>
+""", unsafe_allow_html = True)
 
 
 # Configuration.
@@ -273,5 +276,7 @@ st.markdown("<h3 style='text-align: center;'>Run Time Scaling with Resolution</h
 st.image("plots/runtime_plot.png", use_container_width = True)
 
 st.markdown("""
-#### **Key Performance Takeaway**: As computations become more demanding (resolution > 5), vectorized code performs roughly 100x better than its unvectorized counterpart. Vectorizing allows visualizing (rendering) these complex shapes in real time. 
-""")
+<div style="text-align: justify;">
+    <h4><b>Key Performance Takeaway</b>: As computations become more demanding (resolution > 5), vectorized code performs roughly 100x better than its unvectorized counterpart. Vectorizing allows visualizing (rendering) these complex shapes in real time.</h4> 
+</div>
+""", unsafe_allow_html = True)
