@@ -1,4 +1,4 @@
-Live App Demo: []()
+Live App Demo: [Visualizing Fractal Snowflakes](https://visualize-fractals-realtime.streamlit.app/)
 
 # Visualizing Fractal Snowflakes in Real Time
 
