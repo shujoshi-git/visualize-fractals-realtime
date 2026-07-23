@@ -180,7 +180,7 @@ with st.sidebar:
 
 # Header section.
 st.title("Visualizing Fractals In Real Time: Run Time Analysis")
-st.subheader("Use the sliders to toggle the scaling factor and generation. Check out the run time analysis to see how run time compares for unvectorized code (Python lists) vs vectorized code (NumPy arrays).")
+st.subheader("Use the sliders to toggle the resolution and scaling factor (changes the fractal's shape). Live run time analysis compares run time for unvectorized code (Python lists) vs vectorized code (NumPy arrays).")
 
 
 
