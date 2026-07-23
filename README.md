@@ -4,6 +4,8 @@ Live App Demo: [Visualizing Fractal Snowflakes](https://visualize-fractals-realt
 
 This applied science project turns mathematical theory into clean, highly efficient functional software. Starting with fractals invented in my PhD research, this project builds an interactive tool that visualizes these objects and runs empirical complexity benchmarks on the underlying code.  
 
+**Main Idea**: Uses computationally expensive objects called snowflake fractals to demonstrate the efficiency gains achieved through NumPy vectorization vs pure Python loops. Vectorized code is used to deploy the app. 
+
 **Main steps of this project:**
 
 1. **Algorithmize**: Convert a mathematical construction into a clean python algorithm. 
